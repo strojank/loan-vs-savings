@@ -11,7 +11,7 @@ library(DT)
 ui <- fluidPage(
   titlePanel("When to take a loan?"),
   
-  # Sidebar with inputs
+  # Sidebar with inputs.
   sidebarLayout(
     sidebarPanel(
       helpText(
