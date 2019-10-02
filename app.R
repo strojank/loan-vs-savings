@@ -15,7 +15,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       helpText(
-        "This Shiny app can help you answer the following question: When in the next few years is the best time to take a loan for an investment? Calculation is based on your current funds, yearly savings, interest rates and more"
+        "This Shiny app can help you answer the following question: When in the next few years is the best time to take a loan for an investment? Calculation is based on your current funds, yearly savings, interest rates and more."
       ),
       sliderInput(
         "leta",
