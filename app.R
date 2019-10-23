@@ -15,7 +15,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       helpText(
-        "This Shiny app can help you answer the following question: When in the next few years is the best time to take a loan for an investment? Calculation is based on your current funds, yearly savings, interest rates and more."
+        "This Shiny app can help answer the following question: When in the next few years is the best time to take a loan for an investment? Calculation is based on current funds, yearly savings, interest rates and more."
       ),
       sliderInput(
         "leta",
@@ -81,7 +81,7 @@ ui <- fluidPage(
         "Loan and interests",
         h4("Funds, loan and interests"),
         p(
-          "The plot shows you the cost of total investment separated to your funds, loan and the cost of that loan (interests) depending on the year you decide to invest. You can hoover on top of the chart to display values"
+          "The plot shows the cost of total investment separated to funds, loan and the cost of that loan (interests) depending on the year you decide to invest. Hoover on top of the chart to display values"
         ),
         plotlyOutput("loanPlot"),
         tags$hr()
@@ -91,7 +91,7 @@ ui <- fluidPage(
         "Total investment",
         h4("Total investment cost"),
         p(
-          "The plot shows you total cost of investment depending on the year you decide to invest."
+          "The plot shows total cost of investment depending on the year you decide to invest."
         ),
         plotlyOutput("investmentPlot")
       ),
